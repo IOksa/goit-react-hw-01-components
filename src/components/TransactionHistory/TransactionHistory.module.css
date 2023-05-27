@@ -1,0 +1,40 @@
+.transactionHistory{
+    background-color: white;
+    padding: 0; 
+    border-collapse: collapse;
+   
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;  
+
+    margin: 0 auto;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+
+
+}
+
+tr{
+    padding: 0; 
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #cdc9c9;
+}
+td, th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+td{
+    text-transform: capitalize;
+}
+th{ 
+    background-color: #00bcd5;
+    color: white;
+    text-transform: uppercase;
+}

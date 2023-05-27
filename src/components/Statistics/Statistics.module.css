@@ -1,0 +1,32 @@
+.statistics{
+    width: 750px;
+    margin: 0 auto;
+
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+   
+
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    text-transform: uppercase;
+}
+
+.statList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    list-style: none;
+    
+    background-color: #f3f6f9;
+    padding: 0;
+    margin:0;
+}
