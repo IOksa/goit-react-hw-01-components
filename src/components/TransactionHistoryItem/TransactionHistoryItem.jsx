@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
+import {TableDataRow, TableRow} from './TransactionHistoryItem.styled';
+
 export const TransactionHistoryItem=({id, type, amount, currency})=>{
-   return <tr>
-        <td>{type}</td>
-        <td>{amount}</td>
-        <td>{currency}</td>
-    </tr>
+   return <TableRow>
+        <TableDataRow>{type}</TableDataRow>
+        <TableDataRow>{amount}</TableDataRow>
+        <TableDataRow>{currency}</TableDataRow>
+    </TableRow>
 }
 
 TransactionHistoryItem.propTypes={

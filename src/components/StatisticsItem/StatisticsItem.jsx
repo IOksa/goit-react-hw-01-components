@@ -1,15 +1,14 @@
 import PropTypes from 'prop-types';
-import css from './StatisticsItem.module.css';
 import {getRandomHexColor} from '../../utils/getRandomColor';
+import {StatisticsListItem, Label, Percentage} from './StatisticsItem.styled';
 
 export const StatisticsItem = ({label, percentage})=>{
     const color=getRandomHexColor();
-    console.log('color=', color);
 
-    return <li className={css.item}>
-        <span className={css.label}>{label}</span>
-        <span className={css.percentage}>{percentage}%</span>
-    </li>
+    return <StatisticsListItem bgcolor={color}>
+        <Label>{label}</Label>
+        <Percentage>{percentage}%</Percentage>
+    </StatisticsListItem>
 }
 
 StatisticsItem.propTypes={
@@ -17,3 +16,7 @@ StatisticsItem.propTypes={
     percentage: PropTypes.number.isRequired,
 
 };
+
+
+//style={{backgroundColor: `${color}`}}
+// bgcolor={`${color}`}
