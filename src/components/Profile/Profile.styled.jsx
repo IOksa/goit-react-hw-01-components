@@ -9,11 +9,13 @@ export const ProfileCard = styled.div`
     margin: ${props => `0 auto ${props.theme.spacing(13)} auto`};
     
     background-color: ${props => props.theme.colors.white};
+    
+    overflow: hidden;
 `;
 
 export const Description = styled.div`
     margin-bottom: ${props => props.theme.spacing(8)};
-    overflow: hidden;
+  
 `;
 
 export const Avatar = styled.img`
