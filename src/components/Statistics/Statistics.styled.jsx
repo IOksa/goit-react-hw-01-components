@@ -7,6 +7,8 @@ export const StatisticsSection = styled.section`
     background-color: ${props => props.theme.colors.white};
     border:  ${props => `1px solid ${props.theme.colors.lightGrey}`};
     border-radius: 12px;
+    
+    overflow: hidden;
 `;
 
 export const StatisticsTitle = styled.h2`
@@ -19,7 +21,7 @@ export const StatisticsTitle = styled.h2`
 
     text-transform: uppercase;
     
-    overflow: hidden;
+
 `;
 
 export const StatisticsList = styled.ul`
