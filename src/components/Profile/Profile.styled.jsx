@@ -13,6 +13,7 @@ export const ProfileCard = styled.div`
 
 export const Description = styled.div`
     margin-bottom: ${props => props.theme.spacing(8)};
+    overflow: hidden;
 `;
 
 export const Avatar = styled.img`
