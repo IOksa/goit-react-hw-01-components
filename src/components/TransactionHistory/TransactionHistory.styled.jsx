@@ -14,7 +14,8 @@ export const TableTransactionHistory = styled.table`
     margin: 0 auto;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
-    border-radius: 12px;
+    border-radius: 8px;
+    overflow: hidden;
 `;
 
 export const TableRow = styled.tr`
