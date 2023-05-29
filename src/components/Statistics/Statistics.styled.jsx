@@ -18,6 +18,8 @@ export const StatisticsTitle = styled.h2`
     letter-spacing: 0.02em;
 
     text-transform: uppercase;
+    
+    overflow: hidden;
 `;
 
 export const StatisticsList = styled.ul`
